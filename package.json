@@ -17,6 +17,7 @@
   "author": "Leonardo Turbiani <turbiani@cotabox.com.br> (http://who.leozera.com.br/)",
   "license": "UNLICENSED",
   "dependencies": {
-    "graphql-yoga": "^1.7.1"
+    "graphql-yoga": "^1.7.1",
+    "prisma-binding": "^1.5.16"
   }
 }
