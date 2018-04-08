@@ -4,7 +4,8 @@
   "description": "Repositórios de estudo do tutorial https://www.howtographql.com/graphql-js/1-getting-started/",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "nodemon src/index.js"
   },
   "keywords": [
     "graphql",
