@@ -1,3 +1,6 @@
+# WebStorm IDE
+.idea/
+.editorconfig
 # Logs
 logs
 *.log

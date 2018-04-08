@@ -1,0 +1,21 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "description": "Repositórios de estudo do tutorial https://www.howtographql.com/graphql-js/1-getting-started/",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "graphql",
+    "nodejs",
+    "javascript",
+    "programmer",
+    "development"
+  ],
+  "author": "Leonardo Turbiani <turbiani@cotabox.com.br> (http://who.leozera.com.br/)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "graphql-yoga": "^1.7.1"
+  }
+}
