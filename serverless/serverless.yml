@@ -13,8 +13,18 @@ functions:
       - http:
           path: /
           method: get
+  redirect:
+    handler: redirect/index.handler
+    events:
+      - http:
+          path: /{slug}
+          method: get
+    environment:
+      URL_INSTALL: https://serverless.com/framework/docs/providers/aws/guide/installation/
+      URL_ABCD: http://serverless.com/
+      URL_AWS: https://aws.amazon.com/
   create:
-    handler: create/index-finished.handler
+    handler: create/index.handler
     environment:
       HOST: lfkqzca8z0.execute-api.us-east-1.amazonaws.com/dev/
     events:
