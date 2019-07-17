@@ -1,0 +1,23 @@
+service: urlshortener
+
+frameworkVersion: ">=1.8.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  main:
+    handler: main/index.handler
+    events:
+      - http:
+          path: /
+          method: get
+  create:
+    handler: create/index-finished.handler
+    environment:
+      HOST: lfkqzca8z0.execute-api.us-east-1.amazonaws.com/dev/
+    events:
+      - http:
+          path: /
+          method: post
