@@ -1,0 +1,22 @@
+{
+  "name": "type-graphql",
+  "version": "1.0.0",
+  "description": "Repository to support my studies about GraphQL.  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turbiani/graphql-studies.git"
+  },
+  "keywords": [
+    "graphql;nodejs;javascript;typescript;development"
+  ],
+  "author": "Turbiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turbiani/graphql-studies/issues"
+  },
+  "homepage": "https://github.com/Turbiani/graphql-studies#readme"
+}
