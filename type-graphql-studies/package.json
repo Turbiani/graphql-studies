@@ -1,10 +1,10 @@
 {
-  "name": "type-graphql",
+  "name": "type-graphql-studies",
   "version": "1.0.0",
   "description": "Repository to support my studies about GraphQL.  ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/Turbiani/graphql-studies/issues"
   },
-  "homepage": "https://github.com/Turbiani/graphql-studies#readme"
+  "homepage": "https://github.com/Turbiani/graphql-studies#readme",
+  "dependencies": {
+    "@types/graphql": "^14.5.0",
+    "apollo-server-express": "^2.9.5",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.5"
+  }
 }
